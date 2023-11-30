@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/jwt
+    username: root
+    password: 4562
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
